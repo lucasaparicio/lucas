@@ -43,6 +43,70 @@ div {
 	display: block;
 }
 
+@media (max-width: 768px) {
+
+	body {
+		text-align: center;
+
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	.navright {
+		display: hidden;
+	}
+
+	.navleft {
+		width: 100%;
+
+	}
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.section-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: pink;
+	}
+
+	.footer-flex {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.appscreen {
+		margin: 10px;
+	}
+
+	.stores {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		text-align: center;
+	}
+
+	.herotitle {
+		text-align: center;
+	}
+
+	.herotext {
+		text-align: center;
+	}
+
+
+
+}
+
 .headroom {
 }
 
@@ -177,11 +241,13 @@ div {
 }
 
 .sectionright {
-	max-width: 425px;
+	max-width: 50%;
+	padding: 10px 0;
 }
 
 .sectionleft {
-	max-width: 425px;
+	max-width: 50%;
+	padding: 10px 0;
 }
 
 .sectiontitle {
@@ -258,3 +324,5 @@ div {
 #section1 {
 	padding-bottom: 0;
 }
+
+
