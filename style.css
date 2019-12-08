@@ -271,7 +271,7 @@ div {
 
 	body {
 		text-align: center;
-		margin;
+		overflow-x: auto !important;
 
 	}
 
