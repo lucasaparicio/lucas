@@ -43,69 +43,7 @@ div {
 	display: block;
 }
 
-@media (max-width: 768px) {
 
-	body {
-		text-align: center;
-
-	}
-
-	h2 {
-		text-align: center;
-	}
-
-	.navright {
-		display: hidden;
-	}
-
-	.navleft {
-		width: 100%;
-
-	}
-
-	.container {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	.section-container {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		background-color: pink;
-	}
-
-	.footer-flex {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.appscreen {
-		margin: 10px;
-	}
-
-	.stores {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		text-align: center;
-	}
-
-	.herotitle {
-		text-align: center;
-	}
-
-	.herotext {
-		text-align: center;
-	}
-
-
-
-}
 
 .headroom {
 }
@@ -201,6 +139,8 @@ div {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+	width: fit-content; 
+	margin: 0;
 }
 
 .store-a {
@@ -325,4 +265,106 @@ div {
 	padding-bottom: 0;
 }
 
+@media (max-width: 500px) {
 
+	body {
+		text-align: center;
+
+	}
+
+	h2 {
+		text-align: center;
+		width: 100%;
+
+	}
+
+	.navcontainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+
+
+	.navright {
+		display: none;
+	}
+
+	.navleft {
+		width: 100%;
+		justify-content: center;
+
+	}
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.section-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.footer-flex {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.appscreen {
+		margin-top: 80px;
+	}
+
+	.stores {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		text-align: center;
+	}
+
+	.herotitle {
+		text-align: center;
+		width: 100%;
+	}
+
+	.herotext {
+		text-align: center;
+	}
+
+	.hero-left {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	.sectionimage {
+		display: inline-block;
+	}
+
+	img {
+		display: inline-block;
+	}
+
+	.sectionright {
+		max-width: 100%;
+	}
+
+	.sectionleft {
+		max-width: 100%;
+	}
+
+	.logodiv {
+		justify-content: center;
+	}
+
+
+
+}
