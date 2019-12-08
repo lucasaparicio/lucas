@@ -265,7 +265,7 @@ div {
 	padding-bottom: 0;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 325px) {
 
 	body {
 		text-align: center;
