@@ -263,7 +263,7 @@ div {
 	padding-bottom: 0;
 }
 
-@media (max-width: 325px) {
+@media (max-width: 375px) {
 
 	*{
 		box-sizing: border-box;
